@@ -112,12 +112,12 @@
             },
             total: {
                 value: null,
-                validation: "isString",
+                validation: "optFloat",
                 type: "string"
             },
             tax: {
                 value: null,
-                validation: "optString",
+                validation: "optFloat",
                 type: "string"
             },
             shipping: {
@@ -176,12 +176,12 @@
             },
             price: {
                 value: null,
-                validation: "isString",
+                validation: "isInt",
                 type: "string"
             },
             quantity: {
                 value: null,
-                validation: "isString",
+                validation: "isInt",
                 type: "string"
             }
         }
