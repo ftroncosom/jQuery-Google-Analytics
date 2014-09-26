@@ -93,6 +93,97 @@
                 validation: "optString",
                 type: "string"
             }
+        },
+        addTrans: {
+            event: {
+                value: "_addTrans",
+                validation: "isString",
+                type: "string"
+            },
+            transaccion: {
+                value: null,
+                validation: "isString",
+                type: "string"
+            },
+            affiliation: {
+                value: null,
+                validation: "optString",
+                type: "string"
+            },
+            total: {
+                value: null,
+                validation: "isString",
+                type: "string"
+            },
+            tax: {
+                value: null,
+                validation: "optString",
+                type: "string"
+            },
+            shipping: {
+                value: null,
+                validation: "optString",
+                type: "string"
+            },
+            city: {
+                value: null,
+                validation: "optString",
+                type: "string"
+            },
+            state: {
+                value: null,
+                validation: "optString",
+                type: "string"
+            },
+            country: {
+                value: null,
+                validation: "optString",
+                type: "string"
+            }
+        },
+        trackTrans: {
+            event: {
+                value: "_trackTrans",
+                validation: "isString",
+                type: "string"
+            }
+        },
+        addItem: {
+            event: {
+                value: "_addItem",
+                validation: "isString",
+                type: "string"
+            },
+            transaccion: {
+                value: null,
+                validation: "isString",
+                type: "string"
+            },
+            sku: {
+                value: null,
+                validation: "isString",
+                type: "string"
+            },
+            name: {
+                value: null,
+                validation: "isString",
+                type: "string"
+            },
+            category: {
+                value: null,
+                validation: "optString",
+                type: "string"
+            },
+            price: {
+                value: null,
+                validation: "isString",
+                type: "string"
+            },
+            quantity: {
+                value: null,
+                validation: "isString",
+                type: "string"
+            }
         }
     };
 
