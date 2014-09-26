@@ -381,6 +381,10 @@
                 event = this.event,
                 params = [];
 
+            if (self.options.debug){
+                console.log("trigger event: " + self.event.event.value);
+            }
+            
             // Loop through and build the parameters.
             $.each(event, function (key, val) {
 
