@@ -100,7 +100,7 @@
                 validation: "isString",
                 type: "string"
             },
-            transaccion: {
+            transaction: {
                 value: null,
                 validation: "isString",
                 type: "string"
@@ -154,7 +154,7 @@
                 validation: "isString",
                 type: "string"
             },
-            transaccion: {
+            transaction: {
                 value: null,
                 validation: "isString",
                 type: "string"
